@@ -141,6 +141,7 @@ ifaces = {
     'optimization_solver::iterative_solver::Batch': ('daal::algorithms::optimization_solver::iterative_solver::BatchPtr', None),
     'regression::training::Batch': ('daal::services::SharedPtr<daal::algorithms::regression::training::Batch>', None),
     'regression::prediction::Batch': ('daal::services::SharedPtr<daal::algorithms::regression::prediction::Batch>', None),
+    #'normalization::zscore::BatchImpl': ('daal::services::SharedPtr<normalization::zscore::BatchImpl>', None),
 }
 
 # By default input arguments have no default value (e.g. they are required).
